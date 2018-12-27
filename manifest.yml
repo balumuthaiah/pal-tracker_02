@@ -1,7 +1,8 @@
 ---
 applications:
   - name: pal-tracker
-    path: build\libs\pal-tracker.jar
-    random-route: true
+    path: build/libs/pal-tracker.jar
+    routes:
+      route: pal-tracker-responsive-elephant.apps.pcf.paltraining.perficient.com
     env:
-      WELCOME_MESSAGE: Hello from Cloud Foundry
+      WELCOME_MESSAGE: Hello from the review environment
